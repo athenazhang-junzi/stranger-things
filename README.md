@@ -1,90 +1,85 @@
-# 🧇 Stranger Things Experience
+🧇 Stranger Things 体验页面
 
-Fala, pessoal! Lucas Simão na área. ✌️  
+大家好！我是 Athena ✌️
 
-Dá uma olhada nesse projeto que eu desenvolvi. Se você é fã de Stranger Things, vai curtir a vibe. É uma landing page focada na **"The Experience"**, com aquele clima de mistério e anos 80 que a gente adora.
+来看看我开发的这个项目吧。如果你是《怪奇物语》（Stranger Things）的粉丝，一定会喜欢这种氛围。这是一个围绕 “The Experience（沉浸式体验）” 打造的登录页，充满了我们熟悉的神秘感和80年代风格。
 
-A ideia aqui foi criar algo imersivo, usando o que há de melhor em animações web para dar vida ao Mundo Invertido.
+这个项目的目标是通过先进的网页动画技术，打造一个具有沉浸感的“UpsideDown”。
 
----
+⸻
 
-## 🧇 O Projeto: Stranger Things Experience
+🧇 项目介绍：Stranger Things 体验
 
-Esse site não é só um rostinho bonito (ou assustador, dependendo de como você olha pro Demogorgon). Ele foi construído para ser uma experiência fluida, onde o usuário sente o clima da série desde o momento em que a página carrega.
+这个网站不仅仅是一个好看的页面。它被设计成一个流畅的体验，让用户从页面加载的那一刻起，就能感受到剧集的氛围。
 
-A proposta foi ir além de uma página estática tradicional e criar uma experiência visual dinâmica e envolvente.
+我的目标是突破传统静态页面的限制，打造一个动态且富有沉浸感的视觉体验。
 
----
+⸻
 
-## ✨ O que tem de legal
+✨ 项目亮点
 
-### 🔄 Preloader personalizado
-Um carregamento estilizado com o logo da série em SVG, porque ninguém merece tela branca esperando o site abrir.
+🔄 自定义预加载动画（Preloader）
 
-### 🌀 Scroll Suave (Smooth Scroll)
-Usei o ScrollSmoother da GSAP para deixar a navegação com aquele deslize amanteigado.
+使用 SVG 的剧集 Logo 制作加载动画，避免用户面对空白页面等待。
 
-### 🌌 Efeito Parallax
-As imagens de fundo se movem em velocidades diferentes, dando profundidade pro layout e reforçando a imersão.
+⸻
 
-### 🔤 Animações de Texto
-Os títulos não aparecem do nada; eles surgem letra por letra conforme você faz o scroll.
+🌀 平滑滚动（Smooth Scroll）
 
-### 🎨 Tipografia Clássica
-Importei a fonte Benguiat (sim, a oficial do logo!) pra manter o DNA da marca.
+使用 GSAP 的 ScrollSmoother，实现丝滑的滚动体验。
 
----
+⸻
 
-## 🛠️ Tecnologias Utilizadas
+🌌 视差效果（Parallax）
 
-Para chegar nesse resultado, usei meu kit de sobrevivência de Software Engineering:
+背景图以不同速度移动，增强页面层次感与沉浸感。
 
-### 🌐 HTML5 / CSS3
-- Estrutura semântica
-- Estilização avançada
-- Flexbox
-- Media Queries
-- Responsividade 100%
+⸻
 
-### 🧠 JavaScript
-- Lógica das interações
-- Controle das animações
-- Registro e configuração de plugins
+🔤 文字动画
 
-### 🎬 GSAP (GreenSock Animation Platform)
+标题不会突然出现，而是随着滚动逐字展示。
 
-- **ScrollTrigger**  
-  Para disparar eventos conforme o usuário desce a página.
+⸻
 
-- **ScrollSmoother**  
-  Para criar o efeito de rolagem premium e fluida.
+🎨 经典字体
 
-- **SplitText**  
-  Para animar cada caractere individualmente.
+引入 Benguiat 字体（官方 Logo 字体），保持品牌风格一致。
 
----
+⸻
 
-## 📂 Estrutura de Arquivos
+🛠️ 使用技术
 
-📦 stranger-things-experience
-┣ 📜 index.html   → Onde a mágica da estrutura acontece
-┣ 📜 style.css    → Todo o design, cores escuras e gradientes “Upside Down”
-┗ 📜 script.js    → Registro dos plugins e configuração das timelines
+为了实现这些效果，我使用了以下技术栈：
 
-## 🚀 Como visualizar
+⸻
 
-Se você quiser rodar aí na sua máquina, é só:
+🌐 HTML5 / CSS3
+	•	语义化结构
+	•	高级样式设计
+	•	Flexbox 布局
+	•	响应式设计（Media Queries）
+	•	完整适配不同设备
 
-1. Clonar o repositório  
-2. Abrir o arquivo `index.html` no navegador   
+⸻
 
----
+🧠 JavaScript
+	•	交互逻辑控制
+	•	动画管理
+	•	插件注册与配置
 
-> “Friends don’t lie” – e eu não estou mentindo quando digo que esse projeto foi massa de fazer!  
+⸻
 
-Se tiver alguma dúvida ou quiser trocar uma ideia sobre o código, é só dar um alô.
+🎬 GSAP（GreenSock 动画库）
+	•	ScrollTrigger
+用于监听滚动并触发动画
+	•	ScrollSmoother
+实现流畅滚动体验
+	•	SplitText
+实现逐字符动画效果
 
----
+🚀 如何运行
 
-**Lucas Novelly Simão**  
-Estudante de Engenharia de Software
+如果你想在本地运行这个项目：
+	1.	克隆仓库
+	2.	用浏览器打开 index.html 文件
